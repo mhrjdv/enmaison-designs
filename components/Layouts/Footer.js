@@ -154,10 +154,10 @@ const Footer = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i>{" "}
-                    Shubham Ladies Tailor, <br />
+                    <i className="fa-solid fa-location-dot"></i>
+                    Shubham Ladies Tailor,
                     Main Road, Khamgaon <br />{" "}
-                    MH-444303
+                    
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
@@ -165,18 +165,18 @@ const Footer = () => {
                       +91 87667 48302
                     </a>
                     <br />
-                    <a href="tel:+91 87667 48302">
+                    {/* <a href="tel:+91 87667 48302">
                       +91 87667 48302
-                    </a>
+                    </a> */}
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
                     <a href="mailto:info@enmaisondesigns.in">
                       info@enmaisondesigns.in
                     </a>
-                    <a href="mailto:info@enmaisondesigns.in">
+                    {/* <a href="mailto:info@enmaisondesigns.in">
                     info@enmaisondesigns.in
-                    </a>
+                    </a> */}
                   </li>
                 </ul>
               </div>
