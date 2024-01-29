@@ -9,42 +9,59 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="100"
               >
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo.png" alt="Logo" />
+                    <img
+                      src="/images/logo.png"
+                      alt="Logo"
+                    />
                   </Link>
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.
                   Ut enim ad minim veniam.
                 </p>
 
                 <ul className="social-links">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://linkedin.com/" target="_blank">
+                    <a
+                      href="https://linkedin.com/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
@@ -53,19 +70,17 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4 pl-5"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="200"
               >
                 <h3>Explore</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/">
-                      Home
-                    </Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
                     <Link href="/about/">
@@ -92,10 +107,10 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="300"
               >
                 <h3>Quick Links</h3>
@@ -112,9 +127,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/faq/">
-                      Faq
-                    </Link>
+                    <Link href="/faq/">Faq</Link>
                   </li>
                   <li>
                     <Link href="/privacy-policy/">
@@ -131,29 +144,39 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="400"
               >
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
-                    Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i>{" "}
+                    Shubham Ladies Tailor, <br />
+                    Main Road, Khamgaon <br />{" "}
+                    MH-444303
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a> 
+                    <a href="tel:+91 87667 48302">
+                      +91 87667 48302
+                    </a>
                     <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    <a href="tel:+91 87667 48302">
+                      +91 87667 48302
+                    </a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:info@enmaisondesigns.in">
+                      info@enmaisondesigns.in
+                    </a>
+                    <a href="mailto:info@enmaisondesigns.in">
+                    info@enmaisondesigns.in
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -164,9 +187,21 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
+              Copyright &copy; {currentYear} All
+              Rights Reserved By{" "}
+              <a
+                href="https://www.enmaisondesigns.in"
+                target="_blank"
+              >
+                Enmaison Designs
+              </a>
+              <br></br>
+              Designed & Developed By{" "}
+              <a
+                href="https://www.enmaisondesigns.in"
+                target="_blank"
+              >
+                Mihir Jadhav.
               </a>
             </p>
           </div>

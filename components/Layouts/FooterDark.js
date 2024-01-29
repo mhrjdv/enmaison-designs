@@ -141,7 +141,7 @@ const FooterDark = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
+                    <i className="fa-solid fa-location-dot"></i> Shubham Ladies Tailor
                     Victoria, Canada.
                   </li>
                   <li className="pt-2">

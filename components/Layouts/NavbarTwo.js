@@ -46,6 +46,7 @@ const NavbarTwo = () => {
                 className="white-logo"
                 alt="logo"
               />
+              {/* Enmaison Designs */}
             </Link>
 
             {/* Toggle navigation */}
@@ -71,10 +72,11 @@ const NavbarTwo = () => {
                     href="/"
                     className={`nav-link ${currentPath == "/" && "active"}`}
                   >
-                    Home <i className="fa-solid fa-angle-down"></i>
+                    Home 
+                    {/* <i className="fa-solid fa-angle-down"></i> */}
                   </Link>
 
-                  <ul className="dropdown-menu mega-dropdown-menu">
+                  {/* <ul className="dropdown-menu mega-dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/"
@@ -292,7 +294,7 @@ const NavbarTwo = () => {
                         Cyber Security Agency <span className="new">New</span>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">
@@ -302,10 +304,11 @@ const NavbarTwo = () => {
                       currentPath == "/services/" && "active"
                     }`}
                   >
-                    Services <i className="fa-solid fa-angle-down"></i>
+                    Services 
+                    {/* <i className="fa-solid fa-angle-down"></i> */}
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/services/"
@@ -360,7 +363,7 @@ const NavbarTwo = () => {
                         Service Details
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">
@@ -381,10 +384,11 @@ const NavbarTwo = () => {
                       currentPath == "/portfolio/" && "active"
                     }`}
                   >
-                    Portfolio <i className="fa-solid fa-angle-down"></i>
+                    Portfolio
+                     {/* <i className="fa-solid fa-angle-down"></i> */}
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/portfolio/"
@@ -417,10 +421,10 @@ const NavbarTwo = () => {
                         Portfolio Details 2
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
-                <li className="nav-item">
+                     {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -429,7 +433,7 @@ const NavbarTwo = () => {
                     Pages <i className="fa-solid fa-angle-down"></i>
                   </Link>
 
-                  <ul className="dropdown-menu">
+             <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/about/"
@@ -551,9 +555,9 @@ const NavbarTwo = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="/blog/"
                     className={`nav-link ${
@@ -608,7 +612,7 @@ const NavbarTwo = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
@@ -624,7 +628,7 @@ const NavbarTwo = () => {
 
               <div className="others-options">
                 <Link href="/contact/" className="btn btn-primary">
-                  Get Started
+                  Get Free Quote
                 </Link>
               </div>
             </div>
