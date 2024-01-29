@@ -45,7 +45,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          We are a
+                          We are a fre
                         </span>
 
                         <h1
@@ -55,7 +55,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Creative agency
+                          Artisan Architects
                         </h1>
 
                         <p
